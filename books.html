@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div  class="header">
+        <div class="title">
+            Skadoosh?
+        </div>
+        
+       
+
+    </div>
+    <div id="mess">
+    <div id="wel">
+        Welcome to the Books Quiz
+    </div>
+    <div id="ch">
+        <p>
+           Select difficulty: 
+        </p>
+        <select id="diff" name="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+            
+          </select>
+          <p>
+            Select number of questions:
+          </p>
+          <select id="num" name="noq">
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
+              
+            </select>
+            <button onclick="getQ() ">
+                Start Quiz
+            </button>
+    </div>
+  
+</div>
+
+        <div id="quiz-con">
+                <div id="ques-con">
+                    <!-- <div class="ques-no">
+
+                    </div>
+                    <div class="ques-state">
+
+                    </div> -->
+                </div>
+                <div id="option-con">
+                    <!-- <div class="opt">
+                        <div class="opt-no">
+                        
+                        </div>
+                        <div class="opt-st">
+
+                        </div>
+                    </div>
+                    <div class="opt">
+
+                    </div>
+                    <div class="opt">
+
+                    </div>
+                    <div class="opt">
+
+                    </div> -->
+                </div>
+                <div id="btn-con">
+                    <button onclick="getQ()">Next</button>
+                </div>
+        </div>
+
+        <div id="result">
+            <div id="comp">
+                Quiz completed!!!!
+            </div>
+            <div id="sc">
+                Your Score is:
+            </div>
+            <div id="score">
+            </div>
+        </div>
+        <script src="/book.js"></script>
+</body>
+</html>
